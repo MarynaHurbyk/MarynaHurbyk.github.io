@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    background-color:#59A4F2 ;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90% ;
+    height: 12em;
+
+    margin-top: 6em;
+    border-radius: 40px;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2em;
+}
+p{color: white;
+}
+.title{
+    font-size: 3em;
+}
+img{
+    height: 7em;
+    width: 7em;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+
+.block{
+    flex: 2;
+}
+
+
+
