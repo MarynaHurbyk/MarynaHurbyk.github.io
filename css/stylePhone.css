@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url("../fonts/roboto/stylesheet.css");
+/* line 5, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+body {
+  margin: 1em;
+}
+
+/* line 8, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.link {
+  text-decoration: none;
+  font-family: SF, Pro, Display, Arial, Helvetica, sans-serif;
+}
+
+/* line 12, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.header {
+  display: flex;
+  padding-top: 2.5em;
+  text-align: start;
+  align-items: flex-end;
+}
+
+/* line 17, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.header .header__img {
+  height: 1.4em;
+  width: 1.2em;
+  padding-right: 5.4375em;
+}
+
+/* line 22, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.header .header__a_directions-top-level {
+  text-align: center;
+  color: black;
+  font-size: 0.875em;
+}
+
+/* line 28, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.phone-list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+/* line 33, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.phone-list .phone-list__b {
+  font-family: SF, Pro, Display, Arial, Helvetica, sans-serif;
+  padding-top: 1.9em;
+  padding-bottom: 1.1em;
+  font-size: 1.5em;
+}
+
+/* line 39, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.phone-list .phone-list__item-list {
+  display: flex;
+  overflow-x: scroll;
+  flex-direction: row;
+  scroll-behavior: smooth;
+  height: 5.1875em;
+}
+
+/* line 45, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.phone-list .phone-list__item-list .phone-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #59A4F2;
+  height: 5.1875em;
+  width: 14.5em;
+  border-radius: 0.90625em;
+  margin-right: 1.25em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+}
+
+/* line 60, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.phone-list .phone-list__item-list .phone-list__item .phone-list__wrap-text {
+  word-break: break-all;
+  text-align: start;
+  padding-left: 1em;
+}
+
+/* line 65, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.phone-list .phone-list__item-list .phone-list__item .phone-list__wrap-text .phone-list__a .phone-list__p {
+  color: white;
+  font-size: 1em;
+  word-break: break-all;
+}
+
+/* line 73, ../../../../../../Админ/IdeaProjects/MarynaHurbyk.github.io/sass/stylePhone.scss */
+.phone-list .phone-list__item-list .phone-list__add-item {
+  height: 5.17em;
+  width: 5.15em;
+  border: 1px dashed #F1564A;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 2.062em;
+  margin-right: 1.25em;
+}
+
+/*# sourceMappingURL=stylePhone.css.map */
