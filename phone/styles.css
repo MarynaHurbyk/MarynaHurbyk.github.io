@@ -1,0 +1,89 @@
+@import url("../fonts/roboto/stylesheet.css");
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+
+body {
+    width: 100%;
+    font: 0.875em solid back SF Pro Display, Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 8.3em;
+    text-align: start;
+    padding-left: 17.1em;
+    background-color: yellow;
+}
+
+.header__a_directions-top-level {
+    padding-top: 10em;
+    font-size: 2.1em;
+    justify-content: center;
+    color: black;
+    background-color: #59A4F2;
+}
+
+.phone-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.3em;
+}
+.phone-list_title-item{
+    padding-top: 2.1em;
+    font-size: 3.5em;
+}
+
+.phone-list_item-list{
+    height: 10em;
+    background-color: magenta;
+
+}
+
+
+
+/*.phone-list_item {*/
+    /*display: inline;*/
+    /*background-color: #59A4F2;*/
+    /*height: 100%;*/
+    /*width: 3em;*/
+
+    /*justify-content: space-between;*/
+
+    /*border-radius: 40px;*/
+/*}*/
+
+/*.phone-list_item-text {*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*font-size: 2em;*/
+    /*color: white;*/
+
+/*}*/
+
+/*.phone-list_wrap_icon {*/
+    /*height: 7em;*/
+    /*width: 7em;*/
+/*}*/
+
+/*.phone-list_icon {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*padding: 3em;*/
+
+/*}*/
+
+/*.phone-list_wrap_text {*/
+    /*flex: 2;*/
+/*}*/
+
+/*.phone-list_item-link {*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+/*}*/
+
+
