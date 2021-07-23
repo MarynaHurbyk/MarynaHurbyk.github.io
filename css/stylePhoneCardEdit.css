@@ -1,0 +1,73 @@
+@import url("../fonts/roboto/stylesheet.css");
+body {
+  margin: 2.1em  1em 1em 1em;
+  font-family: SF, Pro, Display, Arial, Helvetica, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header__a {
+  display: flex;
+  padding-top: 2.5em;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header__a .header__img {
+  height: 1.4em;
+  width: 1.2em;
+}
+
+.header__a .header__p_directions-top-level {
+  margin-bottom: 0;
+  color: black;
+  font-size: 0.875em;
+  padding-bottom: 0;
+}
+
+.phone-card-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1.5em;
+  margin-bottom: 2.1em;
+}
+
+.phone-card-data .phone-card-data__item {
+  padding-bottom: 0.5em;
+}
+
+.phone-card-data .phone-card-data__item .phone-card-data__p {
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.phone-card-data .phone-card-data__item .phone-card-data__input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  width: 99%;
+  font-size: 13px;
+  padding-bottom: 0.5em;
+}
+
+.phone-card-action {
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-card-action .phone-card-action__button {
+  background: #59A4F2;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 2.6em;
+  margin-bottom: 1.5em;
+  border: none;
+}
