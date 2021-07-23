@@ -1,0 +1,87 @@
+@import url("../fonts/roboto/stylesheet.css");
+body {
+  margin: 2.1em 1em 1em 1em;
+  font-family: SF, Pro, Display, Arial, Helvetica, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header__a {
+  display: flex;
+  padding-top: 2.5em;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header__a .header__img {
+  height: 1.4em;
+  width: 1.2em;
+}
+
+.header__a .header__p_directions-top-level {
+  margin-bottom: 0;
+  color: black;
+  font-size: 0.875em;
+  padding-bottom: 0;
+}
+
+.phone-card {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-card .phone-card-title__b {
+  font-size: 36px;
+  word-spacing: -5px;
+}
+
+.phone-card .phone-card-call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5em;
+  margin-bottom: 2.15em;
+}
+
+.phone-card .phone-card-call__p {
+  font-weight: 700;
+  font-size: 41px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.phone-card .phone-card-call__button {
+  letter-spacing: 2px;
+  width: 10em;
+  height: 3em;
+  background-color: #F1564A;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  border: none;
+}
+
+.phone-card .phone-card__description {
+  margin-bottom: 1.8em;
+  height: 10em;
+}
+
+.phone-card .phone-card-call-reason__b {
+  font-size: 24px;
+}
+
+.phone-card .phone-card-call-reason__ul {
+  margin-top: 1.75em;
+  display: flex;
+  padding-left: 1em;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.phone-card .phone-card-call-reason__ul .phone-card-call-reason__li {
+  margin-bottom: 1.2em;
+}
