@@ -1,0 +1,112 @@
+@import url("../fonts/roboto/stylesheet.css");
+.header__a {
+  display: flex;
+  padding-top: 40px;
+  align-items: flex-end;
+}
+
+.header__a .header__img {
+  height: 2em;
+  width: 1.5em;
+  padding-top: 0.5em;
+}
+
+.header__a .header__p_directions-top-level {
+  width: 295px;
+  color: black;
+  font-size: 14px;
+  padding-bottom: 0.5em;
+  text-align: center;
+  letter-spacing: 0.5px;
+  word-spacing: -2px;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.action .action__button {
+  background: #59A4F2;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 2.6em;
+  border: none;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.action .red {
+  background-color: #F1564A;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.list .list__b {
+  font-family: SF, Pro, Display, Aria0l, Helvetica, sans-serif;
+  padding-top: 2em;
+  padding-bottom: 1.4em;
+  font-size: 1.5em;
+}
+
+.list .list__item-list {
+  display: flex;
+  overflow-x: scroll;
+  flex-direction: row;
+  scroll-behavior: smooth;
+  height: 17.3em;
+}
+
+.list .list__item-list .list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  background: #59A4F2;
+  height: 100%;
+  width: 18.5em;
+  margin-right: 1.25em;
+  border-radius: 0.90625em;
+}
+
+.list .list__item-list .list__item .list__img {
+  margin: 1em 1em 0.9em 1em;
+}
+
+.list .list__item-list .list__item .list-title__p {
+  margin-left: 1em;
+  color: white;
+  font-size: 1.125em;
+  margin-bottom: 0.7em;
+}
+
+.list .list__item-list .list__item .list-description__p {
+  margin-left: 1.5em;
+  color: white;
+  font-size: 0.75em;
+}
+
+p, h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 2.1em 1em 1em 1em;
+  font-family: SF, Pro, Display, Aria0l, Helvetica, sans-serif;
+  background-color: #F9F9F9;
+}
+
+.link {
+  text-decoration: none;
+}
