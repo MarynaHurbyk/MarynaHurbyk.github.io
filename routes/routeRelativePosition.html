@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RouteRelativePosition</title>
+    <link href="../css/styleRouteRelativePosition.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <a class="link header__a" href="routeCardPoint.html">
+        <img class="header__img" src="../image/back-icon.svg">
+        <p class="link header__p_directions-top-level">ВЫБЕРИТЕ МАРШРУТ</p>
+    </a>
+</header>
+<div class="card">
+    <a id="open-modal">
+        <img class="card__img" src="../image/maps.svg">
+    </a>
+</div>
+
+<div id="myModal" class="modal">
+    <div class="modal__content">
+        <b class="modal-title__b">Эпоха раннего Барокко</b>
+        <div class="modal_string">
+            <div class="modal__label">Время:</div>
+            <div class="modal__value">4 ч 50 мин</div>
+        </div>
+        <div class="modal_string">
+            <div class="modal__label">Объекты:</div>
+            <div class="modal__value">10</div>
+        </div>
+        <div class="modal_string">
+            <div class="modal__label">Рейтинг:</div>
+            <div class="modal__value">5/10</div>
+        </div>
+        <a class="link modal__a" href="">Подробнее</a>
+    </div>
+</div>
+<script>
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("open-modal");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // Когда пользователь щелкает в любом месте за пределами модального, закройте его
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url("../fonts/roboto/stylesheet.css");
+.header__a {
+  display: flex;
+  padding-top: 40px;
+  align-items: flex-end;
+}
+
+.header__a .header__img {
+  height: 2em;
+  width: 1.5em;
+  padding-top: 0.5em;
+}
+
+.header__a .header__p_directions-top-level {
+  width: 295px;
+  color: black;
+  font-size: 14px;
+  padding-bottom: 0.5em;
+  text-align: center;
+  letter-spacing: 0.5px;
+  word-spacing: -2px;
+}
+
+body {
+  margin: 2.1em 1em 1em 1em;
+  font-family: SF, Pro, Display, Aria0l, Helvetica, sans-serif;
+  background-color: #F9F9F9;
+}
+
+p, h2 {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card .card__img-wrapper {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  margin: 2.4em auto 2.4em auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  border-radius: 50%;
+}
+
+.card .card__img-wrapper .card__img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.card .card__time {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 2.6em auto;
+}
+
+.card .card__time .card__img_slider {
+  margin-bottom: 17px;
+}
+
+.card .card__time .card__time-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .card__time .card__currently-time {
+  font-size: 14px;
+}
+
+.card .card__time .card__total-time {
+  font-size: 14px;
+}
+
+.card .card__control-buttons {
+  width: 249px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
