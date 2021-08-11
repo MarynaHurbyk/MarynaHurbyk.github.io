@@ -54,8 +54,8 @@
 
 .list .list__b {
   font-family: SF, Pro, Display, Aria0l, Helvetica, sans-serif;
-  padding-top: 2em;
-  padding-bottom: 1.4em;
+  padding-top: 38px;
+  padding-bottom: 32px;
   font-size: 1.5em;
 }
 
@@ -65,6 +65,7 @@
   flex-direction: row;
   scroll-behavior: smooth;
   height: 17.3em;
+  padding-bottom: 6px;
 }
 
 .list .list__item-list .list__item {

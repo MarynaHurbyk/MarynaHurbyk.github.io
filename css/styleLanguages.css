@@ -1,0 +1,71 @@
+@import url("../fonts/roboto/stylesheet.css");
+.header__a {
+  display: flex;
+  padding-top: 40px;
+  align-items: flex-end;
+}
+
+.header__a .header__img {
+  height: 2em;
+  width: 1.5em;
+  padding-top: 0.5em;
+}
+
+.header__a .header__p_directions-top-level {
+  width: 295px;
+  color: black;
+  font-size: 14px;
+  padding-bottom: 0.5em;
+  text-align: center;
+  letter-spacing: 0.5px;
+  word-spacing: -2px;
+}
+
+p, h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 2.1em 1em 1em 1em;
+  font-family: SF, Pro, Display, Aria0l, Helvetica, sans-serif;
+  background-color: #F9F9F9;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  padding-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list .list__item {
+  display: flex;
+  width: 166px;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 12px;
+  background-color: #59A4F2;
+  padding-top: 26px;
+  padding-bottom: 24px;
+  border-radius: 10px;
+}
+
+.list .list__item .list__img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 22px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.list .list__item .list__p {
+  color: white;
+  width: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
